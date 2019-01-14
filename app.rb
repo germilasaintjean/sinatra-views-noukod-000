@@ -7,7 +7,7 @@ get '/' do
 end
 
 get '/info'do
-	"info page"
+	"Info Page"
 end
 
 get "/info" do
