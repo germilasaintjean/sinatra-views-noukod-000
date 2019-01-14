@@ -5,7 +5,15 @@ get '/' do
 end
 
 get "/info" do
-  "Testing the info page"
+  erb :info
+end
+
+get '/' do
+  erb :index
+end
+
+get "/info" do
+  erb :info
 end
 
 end
