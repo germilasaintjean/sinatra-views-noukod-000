@@ -7,12 +7,9 @@ get '/' do
 end
 
 get '/info'do
-	"Info Page"
+	erb :info
 end
 
-get "/info" do
-	erb :dogs
-end
 
 
 end
