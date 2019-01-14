@@ -6,8 +6,8 @@ get '/' do
 	erb :index
 end
 
-get '/info page'do
-	erb :info
+get '/info'do
+	"info page"
 end
 
 get "/info" do
